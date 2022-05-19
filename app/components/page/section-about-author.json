@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_section_about_authors",
+  "info": {
+    "name": "sectionAboutAuthor",
+    "icon": "user-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "authors": {
+      "collection": "author"
+    }
+  }
+}

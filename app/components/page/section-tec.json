@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_section_tecs",
+  "info": {
+    "name": "sectionTec",
+    "icon": "book-reader",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "techicons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.techicons",
+      "required": true,
+      "min": 5,
+      "max": 10
+    }
+  }
+}
